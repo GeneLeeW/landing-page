@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+}
+/* Beginning Nav section ------------------------*/
+.nav {
+  background-color: #1f2937;
+  display: flex;
+  padding: 0 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Ending Nav section ----------------------------*/
+/* Beginning Hero Section --------------------------*/
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px;
+  gap: 16px;
+}
+
+.modal {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal-header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.modal-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.modal-img {
+  background-color: gray;
+  color: white;
+  padding: 100px 100px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bolder;
+  padding: 8px 24px;
+  border-radius: 10px;
+  border: none;
+  max-width: 100px;
+}
+
+/* Ending Hero Section -----------------------------------------*/
+/* Beginning Hero2 Section -----------------------------------*/
+.hero2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 16px;
+}
+
+.hero2-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #f9faf8;
+  border: solid #3882f6 5px;
+  border-radius: 10px;
+}
+
+.hero2-title {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 32px;
+}
+
+.hero2-info {
+  min-width: 200px;
+  max-width: 200px;
+  color: #1f2937;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+/* Ending Hero2 Section ----------------------------------------*/
+/* Beginning Hero3 Section --------------------------- */
+.hero3 {
+  background-color: #e5e7eb;
+  padding: 150px;
+}
+.hero3-text {
+  font-size: 36px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hero3-author {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 52px;
+}
+
+/* Ending Hero3 Section ------------------------------ */
